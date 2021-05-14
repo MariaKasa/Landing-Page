@@ -72,8 +72,8 @@ body {
 }
 
 .menu__item a:hover {
-    color: #1d1d1d;
-    text-decoration: underline;
+  color: #1d1d1d;
+  text-decoration: underline;
 }
 
 .menu__item:last-child a {
@@ -416,7 +416,6 @@ input[type="number"] {
 /* Адаптив */
 
 @media screen and (max-width: 1123px) {
-
   body {
     overflow-x: hidden;
   }
@@ -432,11 +431,9 @@ input[type="number"] {
   .about__inner {
     grid-gap: 30px;
     grid-template-columns: max-content;
-
   }
 
-  .team .block__title
-  .service .block__title {
+  .team .block__title .service .block__title {
     padding-top: 100px;
   }
 
@@ -452,7 +449,6 @@ input[type="number"] {
   .services__item {
     max-width: 300px;
     margin: 0 30px 40px;
-
   }
 
   .contact__form {
@@ -464,8 +460,7 @@ input[type="number"] {
   }
 }
 
-@media screen and (max-width: 376px){
-  
+@media screen and (max-width: 376px) {
   .container {
     width: 375px;
   }
@@ -481,7 +476,7 @@ input[type="number"] {
     display: flex;
     flex-direction: column;
   }
-  .menu__inner{
+  .menu__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -512,7 +507,7 @@ input[type="number"] {
   }
 
   .menu__burger span:after {
-    content: '';
+    content: "";
     width: 40px;
     height: 3px;
     background-color: #010101;
@@ -538,12 +533,12 @@ input[type="number"] {
     height: 4px;
     width: 100%;
     background-color: #ffffff;
-    content: '';
+    content: "";
     transition-duration: 0s, 0.3s;
     transition-delay: 0.3s, 0s;
-  } 
+  }
   .menu__burger span:before {
-    bottom: -10px
+    bottom: -10px;
   }
 
   .menu__burger span:after {
@@ -554,12 +549,11 @@ input[type="number"] {
     background: none;
   }
   .menu__burger.close span:before {
- bottom: 0;
- transform: rotate(-45deg);
-
+    bottom: 0;
+    transform: rotate(-45deg);
   }
   .menu__burger.close span:after {
-    top:0;
+    top: 0;
     transform: rotate(45deg);
   }
   .header__title {
@@ -582,7 +576,6 @@ input[type="number"] {
   .team__inner {
     flex-direction: column;
     padding-top: 50px;
-
   }
 
   .team__item {
@@ -592,5 +585,4 @@ input[type="number"] {
   .contact__text a {
     font-size: 12px;
   }
-
 }
